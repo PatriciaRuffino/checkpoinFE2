@@ -23,6 +23,7 @@ let appendImgElements = (imgUrl, title, description) => {
         //IMG CREATION
         const newImg = document.createElement('img');
         newImg.src = imgUrl;
+        newImg.classList.add('img-fluid');
         // APPEND SECTION
         const card = document.createElement('div');
         card.classList.add('card');
